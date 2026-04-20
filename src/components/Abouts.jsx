@@ -1,4 +1,4 @@
-import {myImage} from "../assets/Pc_me.jpeg";
+import myImage from "../assets/Pc_me.jpeg";
 export default function About() {
   return (
   <section className="about-sec" id="about">

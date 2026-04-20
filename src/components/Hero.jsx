@@ -1,4 +1,4 @@
-import {myImage} from "../assets/Pc_me.jpeg";
+import myImage from "../assets/Pc_me.jpeg";
 export default function Hero() {
   return (
     <section className="hero" id="home">
