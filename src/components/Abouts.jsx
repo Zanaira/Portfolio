@@ -1,3 +1,4 @@
+import {myImage} from "../assets/Pc_me.jpeg";
 export default function About() {
   return (
   <section className="about-sec" id="about">
@@ -5,7 +6,7 @@ export default function About() {
           <div className="about-grid">
             <div className="about-img-wrap reveal">
               <div className="about-img-frame">
-                <img src="src/assets/Pc_me.jpeg" alt="Hero Illustration" />
+                <img src={myImage} alt="Hero Illustration" />
                 <div className="about-badge-exp">
                   <span className="n">1+</span>
                   <span className="l">Yr Exp.</span>

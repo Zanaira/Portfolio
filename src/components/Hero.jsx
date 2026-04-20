@@ -1,3 +1,4 @@
+import {myImage} from "../assets/Pc_me.jpeg";
 export default function Hero() {
   return (
     <section className="hero" id="home">
@@ -27,7 +28,7 @@ export default function Hero() {
           {/* Illustration */}
           <div className="hero-visual">
             <div className="hero-card-main">
-              <img src="src/assets/Pc_me.jpeg" alt="Hero Illustration" />
+              <img src={myImage} alt="Hero Illustration" />
             </div>
           </div>
         </div>
