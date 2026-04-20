@@ -13,14 +13,16 @@ export default function About() {
               </div>
             </div>
 
+
+
             <div className="reveal" style={{ transitionDelay: ".15s" }}>
               <div className="sec-label">About Me</div>
               <h2 className="sec-title">Passionate About <em>Clean Code</em> & Great UX</h2>
               <p style={{ color: "var(--text2)", fontSize: ".97rem", lineHeight: "1.8", marginBottom: "1.2rem" }}>
-                I'm Zanaira Ahsan, a dedicated full-stack developer specializing in the MERN stack and Java Spring Boot. I love turning complex problems into elegant, performant solutions — whether that's a pixel-perfect React interface or a robust REST API.
+               I'm Zanaira Ahsan, a full-stack developer specializing in the MERN stack and Java Spring Boot. I enjoy turning complex problems into clean, scalable solutions  from building responsive React interfaces to developing robust REST APIs.
               </p>
               <p style={{ color: "var(--text2)", fontSize: ".97rem", lineHeight: "1.8", marginBottom: "1.4rem" }}>
-                With hands-on internship experience and a portfolio of real-world projects, I bring both technical depth and a product mindset to every engagement.
+                With hands on internship experience and real world projects, I bring both strong technical skills and a practical, product focused approach to development.
               </p>
 
               <div className="strength-cards">
