@@ -343,7 +343,6 @@ section { padding: 5.5rem 6%; }
 footer {
   background: #0f172a; color: #fff;
   padding: 2.5rem 6%; text-align: center;
-  margin:0;
 }
 .footer-inner { max-width: 1200px; margin: 0 auto; }
 .footer-logo { font-size: 1.3rem; font-weight: 800; letter-spacing: -.4px; margin-bottom: .4rem; background: linear-gradient(135deg,#93c5fd,#818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }

@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     featured: true,
-    thumb: "🏛️",
+    image: "/projects/land-records.png",
     bg: "linear-gradient(135deg,#eff6ff,#dbeafe)",
     tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     title: "Land Records Management System",
@@ -10,7 +10,7 @@ export const PROJECTS = [
     repo: "https://github.com/Zanaira/LandRecordSystem",
   },
   {
-    thumb: "🛍️",
+    image: "/projects/business-nexus.png",
     bg: "linear-gradient(135deg,#f0fdf4,#dcfce7)",
     tags: ["React", "Redux", "Node.js", "MongoDB"],
     title: "Business Nexus",
@@ -19,21 +19,21 @@ export const PROJECTS = [
     repo: "https://github.com/AsmatZahra-code/business-nexus",
   },
   {
-    thumb: "📋",
+    image: "/projects/foodhub.png",
     bg: "linear-gradient(135deg,#fefce8,#fef9c3)",
     tags: ["Next.js", "Tailwind CSS"],
-    title: "Food Hub ",
+    title: "Food Hub",
     desc: "An aesthetically designed and responsive UI that enhances user experience by providing easy navigation, menu filtering, and interactive components.",
     demo: "https://next-frontend-assignment-xeza9prmr-johns-projects-416ca0ff.vercel.app",
     repo: "https://github.com/Zanaira/FoodHUB_Next",
   },
   {
-    thumb: "💬",
+    image: "/projects/salary-predictor.png",
     bg: "linear-gradient(135deg,#fdf4ff,#fae8ff)",
     tags: ["React", "Socket.io", "Node.js"],
-    title: "Real-Time Chat App",
-    desc: "Live messaging application with room-based chats, typing indicators, and persistent message history.",
-    demo: "#",
-    repo: "#",
+    title: "Salary Predictor App",
+    desc: "SalaryIQ — ML-powered salary prediction app with multi-classifier comparison, performance metrics, and downloadable PDF reports.",
+    demo: "https://salary-predictor-plum.vercel.app/",
+    repo: "https://github.com/Zanaira/salary_predictor",
   },
-]; 
+];

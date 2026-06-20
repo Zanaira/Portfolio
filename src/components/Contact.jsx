@@ -83,7 +83,7 @@ export default function Contact() {
 
                   <div className="fg">
                     <label htmlFor="email">Email Address</label>
-                    <input id="email" type="email" name="email" placeholder="you@example.com" required />
+                    <input id="email" type="email" name="email" placeholder="you@gmail.com" required />
                     <ValidationError prefix="Email" field="email" errors={state.errors} style={{ color: "red", fontSize: ".78rem", marginTop: "4px" }} />
                   </div>
 
